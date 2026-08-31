@@ -72,7 +72,6 @@ While preparing for **Security Engineer / Blue Team** roles, I wanted a quick wa
 | **Daily server check** | Run it every morning to see what changed overnight |
 | **Post-breach investigation** | Collect evidence quickly |
 | **CTF / Lab auditing** | Understand the state of a compromised machine |
-| **Interview preparation** | Show real-world Bash and Linux skills |
 
 ---
 
@@ -85,15 +84,6 @@ sys-info-script/
 └── examples/            # Sample output logs
 ```
 
----
-
-### 📚 What I Learned
-
-- Writing clean, reusable Bash scripts
-- Parsing system files (`/etc/passwd`, `/var/log/auth.log`)
-- Using `ss`, `ps`, `grep`, `awk`, `tee` in combination
-- Building a professional README and GitHub portfolio
-- Version control with Git and GitHub
 
 ---
 
@@ -168,7 +158,6 @@ chmod +x sys_info.sh
 | **Ежедневная проверка сервера** | Запускай каждое утро, чтобы видеть изменения |
 | **Расследование инцидента** | Быстро собери улики |
 | **Аудит в CTF / лаборатории** | Пойми состояние скомпрометированной машины |
-| **Подготовка к собеседованию** | Покажи реальные навыки Bash и Linux |
 
 ---
 
@@ -183,20 +172,9 @@ sys-info-script/
 
 ---
 
-### 📚 Что я изучил
-
-- Писать чистые, переиспользуемые Bash-скрипты
-- Парсить системные файлы (`/etc/passwd`, `/var/log/auth.log`)
-- Использовать `ss`, `ps`, `grep`, `awk`, `tee` в связке
-- Оформлять профессиональный README и портфолио
-- Работать с Git и GitHub
-
----
-
 ### 🧑‍💻 Автор
 
 **Rezzodan**  
-Энтузиаст кибербезопасности | Linux | Сети | Blue Team
 
 - GitHub: [@Rezzodan](https://github.com/Rezzodan)
 
