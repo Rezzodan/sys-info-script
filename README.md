@@ -1,6 +1,11 @@
-README
-```markdown
 # 🖥️ sys-info-script
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/status-stable-green.svg" alt="Status">
+  <img src="https://img.shields.io/badge/platform-Linux-lightgrey.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+</p>
 
 [![Bash](https://img.shields.io/badge/Bash-4.0+-green.svg)](https://www.gnu.org/software/bash/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -9,7 +14,6 @@ README
 **Choose your language / Выберите язык:**  
 - [🇬🇧 English](#-english-version)  
 - [🇷🇺 Русский](#-русская-версия)
-
 ---
 
 ## 🇬🇧 English Version
