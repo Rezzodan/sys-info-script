@@ -1,0 +1,69 @@
+=== СИСТЕМНАЯ ИНФОРМАЦИЯ ===
+Дата и время: Пн 31 авг 2026 10:39:29 +05
+Имя хоста: security-lab
+Версия ядра: 6.8.0-40-generic
+Архитектура: x86_64
+
+=== ЗАГРУЗКА СИСТЕМЫ ===
+ 10:39:29 up 23 min,  2 users,  load average: 0.68, 0.49, 0.31
+
+=== ПАМЯТЬ ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.8Gi       4.0Gi        30Mi       1.3Gi       4.9Gi
+Swap:          2.0Gi          0B        2.0Gi
+
+=== ДИСКОВОЕ ПРОСТРАНСТВО ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        98G   27G   67G   29% /
+/dev/sda1       487M  6.1M  480M    2% /boot/efi
+
+=== АКТИВНЫЕ ПОЛЬЗОВАТЕЛИ ===
+user     tty7         2026-08-31 10:16 (:0)
+user     pts/0        2026-08-31 10:20 (192.168.1.100)
+
+=== ПОСЛЕДНИЕ 5 ЛОГИНОВ ===
+user     tty7         :0               Mon Aug 31 10:16   still logged in
+reboot   system boot  6.8.0-40-generic Mon Aug 31 10:15   still running
+user     pts/0        192.168.1.100    Sun Aug 30 22:30 - 23:15  (00:45)
+user     pts/1        192.168.1.100    Sun Aug 30 21:45 - 22:15  (00:30)
+reboot   system boot  6.8.0-40-generic Sun Aug 30 21:40 - 22:45  (01:05)
+
+=== ОТКРЫТЫЕ ПОРТЫ (LISTEN) ===
+tcp   LISTEN  0  128  0.0.0.0:2222  0.0.0.0:*  users:(("sshd",pid=1676,fd=3))
+tcp   LISTEN  0  4096  0.0.0.0:80   0.0.0.0:*  users:(("nginx",pid=2030,fd=6))
+tcp   LISTEN  0  4096  0.0.0.0:443  0.0.0.0:*  users:(("nginx",pid=2030,fd=7))
+tcp   LISTEN  0  128    127.0.0.1:5432  0.0.0.0:*  users:(("postgres",pid=2450,fd=4))
+
+=== ВСЕ АКТИВНЫЕ СОЕДИНЕНИЯ ===
+tcp   ESTAB  0  0  192.168.1.100:22  192.168.1.50:54321  users:(("sshd",pid=1676,fd=5))
+tcp   ESTAB  0  0  192.168.1.100:443  192.168.1.50:34567  users:(("nginx",pid=2030,fd=9))
+
+=== ПРОЦЕССЫ ОТ ROOT ===
+root         1  0.1  0.2  16836 16092 ?  Ss  10:16  0:02 /sbin/init splash
+root       1676  0.0  0.1  11236  2960 ?  Ss  10:16  0:01 sshd: /usr/sbin/sshd -D
+root       2030  0.0  0.1  45236  8960 ?  Ss  10:16  0:01 nginx: master process
+root       2450  0.0  0.3 256236 23840 ?  Ss  10:16  0:00 /usr/lib/postgresql/16/bin/postgres
+root       3241  0.1  0.4 452360 32000 ?  Ssl 10:16  0:02 /usr/bin/dockerd
+root       4567  0.0  0.0  10824  6420 ?  Ss  10:17  0:00 /usr/sbin/cron -f
+
+=== ПОДОЗРИТЕЛЬНЫЕ ПРОЦЕССЫ (nc, nmap, hydra, etc.) ===
+(empty — nothing found)
+
+=== СЕТЕВЫЕ ИНТЕРФЕЙСЫ ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128
+eth0             UP             192.168.1.100/24 fe80::211:22ff:fe33:4455/64
+docker0          DOWN           172.17.0.1/16
+
+=== ПОЛЬЗОВАТЕЛИ С SHELL ===
+root:x:0:0:root:/root:/bin/bash
+user:x:1000:1000:User,,,:/home/user:/bin/bash
+developer:x:1001:1001:Developer:/home/developer:/bin/bash
+
+=== ПОСЛЕДНИЕ НЕУДАЧНЫЕ ПОПЫТКИ SSH ===
+2026-08-31T10:20:15 sshd[1234]: Failed password for invalid user admin from 203.0.113.5 port 43210 ssh2
+2026-08-31T10:21:22 sshd[1235]: Failed password for invalid user test from 203.0.113.5 port 43212 ssh2
+
+=== ПОСЛЕДНИЕ УСПЕШНЫЕ ВХОДЫ SSH ===
+2026-08-31T10:20:45 sshd[1236]: Accepted password for user from 192.168.1.100 port 54321 ssh2
+
+=== ОТЧЕТ СОХРАНЕН: sys_info_20260831_103929.txt ===
